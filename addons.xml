@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.meokanal" name="MEO Kanal for XBMC" version="0.2.0" provider-name="SAPO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>MEO Kanal addon for XBMC</summary>
+    <description>This addon allows the user to access content from MEO Kanal on XBMC</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.meocloud" name="MEOCloud for XBMC" version="0.1.9" provider-name="SAPO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.parsedom" version="2.5.1"/>
+    <import addon="script.module.pil" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video audio image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>MEOCloud addon for XBMC</summary>
+    <description>This addon allows the user to access his content on MEOCloud and view it in XBMC</description>
+  </extension>
+</addon>
+</addons>
