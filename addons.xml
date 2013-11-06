@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.meokanal" name="MEO Kanal for XBMC" version="0.3.0" provider-name="SAPO">
+<addon id="plugin.video.meokanal" name="MEO Kanal for XBMC" version="0.3.1" provider-name="SAPO">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -33,6 +33,29 @@
     <language></language>
     <summary>MEOCloud addon for XBMC</summary>
     <description>This addon allows the user to access his content on MEOCloud and view it in XBMC</description>
+  </extension>
+</addon>
+</addons>
+
+<addon id="skin.sapo" name="SAPOxbmc" version="0.1.0" provider-name="SAPO">
+  <requires>
+    <import addon="xbmc.gui" version="4.0.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SAPO Skin by Team SAPO</summary>
+    <summary lang="pt">Tema SAPO Skin desenvolvido pelo SAPO</summary>
+    <description lang="en">This skin was based on Confluence and meets a special purpose within SAPO</description>
+    <description lang="pt">Este tema foi desenvolvido pelo SAPO e baseia-se no default Confluence</description>
+    <disclaimer lang="en">Do not remove this</disclaimer>
+    <disclaimer lang="pt">Não remover</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 </addons>
