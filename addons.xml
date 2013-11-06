@@ -37,7 +37,7 @@
 </addon>
 </addons>
 
-<addon id="skin.sapo" name="SAPOxbmc" version="0.1.0" provider-name="SAPO">
+<addon id="skin.sapo" name="SAPOxbmc" version="0.1.1" provider-name="SAPO">
   <requires>
     <import addon="xbmc.gui" version="4.0.0"/>
   </requires>
